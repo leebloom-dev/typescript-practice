@@ -32,7 +32,12 @@ class Greeting {
         );
     }
 
+    farwell(): void {
+        console.log("See you in the next exercise!");
+    }
+
 }
 
 let someObject = new Greeting();
 someObject.greet();
+someObject.farwell();
