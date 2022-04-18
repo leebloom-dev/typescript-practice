@@ -23,8 +23,10 @@ sudo npm install -g typescript
 
 3. Compile TypeScript File
     - In terminal: 
-        tsc
-    - Finds all TypeScript files in folder and compiles them.
+        - to compile all TypeScript files in the current folder:
+            tsc
+        - to compile a specific TypeScript file:
+            tsc main.ts
 
 4. Run the compiled TypsScript file (main.js) in terminal
     node main.js
